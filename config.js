@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID ||"MEGALODON~MD~BNghjZZR#IEd0uFRtYXmvTwZ1_gbUFH1Ni62gNBzudkQZHQCgt44",
+SESSION_ID: process.env.SESSION_ID ||"MEGALODON~MD~tEJwVIRA#QIQ8asVsyKiz6zYqbWBDRm8BPavRVucV6j2EYxKaYXA",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -34,7 +34,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/nzc6xk.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || "🚩",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "𝐌𝐄𝐆𝐀𝐋𝐎𝐃𝐎𝐍-𝐌𝐃",
 // add bot name here for menu
